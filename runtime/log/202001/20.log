@@ -1,0 +1,2613 @@
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/index.html
+[运行时间：0.155954s] [吞吐率：6.41req/s] [内存消耗：2,608.73kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/index/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'newarticleres',
+  3 => 'sitehotres',
+  4 => 'linkres',
+  5 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003262s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.024776s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.002460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.007029s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.002715s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.006417s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`desc`,`a`.`thumb`,`a`.`click`,`a`.`zan`,`a`.`time`,`c`.`catename`,`a`.`cateid` FROM `bk_article` `a` INNER JOIN `bk_cate` `c` ON `a`.`cateid`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 5 [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.006202s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_link` ORDER BY `sortn` DESC [ RunTime:0.000594s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.041716s] [吞吐率：23.97req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.045523s] [吞吐率：21.97req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.035104s] [吞吐率：28.49req/s] [内存消耗：1,166.98kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/sitemap-dot.gif
+[运行时间：0.033073s] [吞吐率：30.24req/s] [内存消耗：1,166.30kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/loading.gif
+[运行时间：0.084359s] [吞吐率：11.85req/s] [内存消耗：1,166.29kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/focus-bg2.png
+[运行时间：0.057753s] [吞吐率：17.32req/s] [内存消耗：1,166.30kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:01+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/images/focus-left-bg.png
+[运行时间：0.091559s] [吞吐率：10.92req/s] [内存消耗：2,507.30kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003773s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003489s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000307s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:25:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/zpadmin/index.html
+[运行时间：0.053888s] [吞吐率：18.56req/s] [内存消耗：2,599.05kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/zpadmin/zpadmin.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'cates',
+  3 => 'zptreeres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003249s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002910s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003940s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` LIMIT 1 [ RunTime:0.001024s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:25:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.033656s] [吞吐率：29.71req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/zpadmin/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.036588s] [吞吐率：27.33req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/zpadmin/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.013713s] [吞吐率：72.92req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/zpadmin/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:03+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/body_bg.jpg
+[运行时间：0.020243s] [吞吐率：49.40req/s] [内存消耗：1,166.29kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/index.html
+[运行时间：0.069120s] [吞吐率：14.47req/s] [内存消耗：2,608.83kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/index/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'newarticleres',
+  3 => 'sitehotres',
+  4 => 'linkres',
+  5 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001110s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.019870s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003433s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003428s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`desc`,`a`.`thumb`,`a`.`click`,`a`.`zan`,`a`.`time`,`c`.`catename`,`a`.`cateid` FROM `bk_article` `a` INNER JOIN `bk_cate` `c` ON `a`.`cateid`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 5 [ RunTime:0.000452s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.003242s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_link` ORDER BY `sortn` DESC [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.029846s] [吞吐率：33.51req/s] [内存消耗：1,166.45kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.036222s] [吞吐率：27.61req/s] [内存消耗：1,166.45kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.016539s] [吞吐率：60.46req/s] [内存消耗：1,166.45kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.015367s] [吞吐率：65.07req/s] [内存消耗：1,166.45kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.034784s] [吞吐率：28.75req/s] [内存消耗：1,167.31kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/loading.gif
+[运行时间：0.047614s] [吞吐率：21.00req/s] [内存消耗：1,166.49kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/focus-bg2.png
+[运行时间：0.024999s] [吞吐率：40.00req/s] [内存消耗：1,166.50kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/images/focus-left-bg.png
+[运行时间：0.045915s] [吞吐率：21.78req/s] [内存消耗：2,507.63kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000586s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003912s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003915s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:25:58+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/sitemap-dot.gif
+[运行时间：0.015253s] [吞吐率：65.56req/s] [内存消耗：1,166.50kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:33:37+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/admin/index.html
+[运行时间：0.037925s] [吞吐率：26.37req/s] [内存消耗：1,489.26kb] [文件加载：40]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/zpadmin/index.html',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:33:40+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/admin/login/index.html
+[运行时间：0.017199s] [吞吐率：58.14req/s] [内存消耗：1,492.21kb] [文件加载：39]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/admin/controller/Login.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/admin/view/login/index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:33:40+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/captcha.html
+[运行时间：0.049728s] [吞吐率：20.11req/s] [内存消耗：1,186.57kb] [文件加载：29]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/login/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:33:47+08:00 ] 127.0.0.1 POST 127.0.0.1/tp5/public/admin/login/index.html
+[运行时间：0.036399s] [吞吐率：27.47req/s] [内存消耗：2,559.82kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '36',
+  'origin' => 'http://127.0.0.1',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/login/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'code' => '9874',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/admin/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005427s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:33:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/admin/index/index.html
+[运行时间：0.036160s] [吞吐率：27.65req/s] [内存消耗：1,532.83kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/login/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/admin/view/index/index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:33:56+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.054278s] [吞吐率：18.42req/s] [内存消耗：2,650.82kb] [文件加载：50]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.002882s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002990s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002802s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003301s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:34:27+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/index.html
+[运行时间：0.070701s] [吞吐率：14.14req/s] [内存消耗：2,609.09kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/index/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'newarticleres',
+  3 => 'sitehotres',
+  4 => 'linkres',
+  5 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000588s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.006303s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004358s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.001009s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.004898s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`desc`,`a`.`thumb`,`a`.`click`,`a`.`zan`,`a`.`time`,`c`.`catename`,`a`.`cateid` FROM `bk_article` `a` INNER JOIN `bk_cate` `c` ON `a`.`cateid`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 5 [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.004206s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_link` ORDER BY `sortn` DESC [ RunTime:0.001168s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.097547s] [吞吐率：10.25req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.110731s] [吞吐率：9.03req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.019986s] [吞吐率：50.03req/s] [内存消耗：1,167.33kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.020475s] [吞吐率：48.84req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/loading.gif
+[运行时间：0.043441s] [吞吐率：23.02req/s] [内存消耗：1,166.63kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/focus-bg2.png
+[运行时间：0.041902s] [吞吐率：23.87req/s] [内存消耗：1,166.64kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/sitemap-dot.gif
+[运行时间：0.037703s] [吞吐率：26.52req/s] [内存消耗：1,166.64kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.112539s] [吞吐率：8.89req/s] [内存消耗：1,167.33kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:28+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/images/focus-left-bg.png
+[运行时间：0.099627s] [吞吐率：10.04req/s] [内存消耗：2,507.64kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001084s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004122s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003427s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:34:29+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/admin/index.html
+[运行时间：0.018641s] [吞吐率：53.65req/s] [内存消耗：1,532.78kb] [文件加载：41]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/admin/view/index/index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T20:34:31+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.053573s] [吞吐率：18.67req/s] [内存消耗：2,749.80kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.005105s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002749s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002702s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003250s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:46:32+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.053390s] [吞吐率：18.73req/s] [内存消耗：2,757.88kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000581s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004721s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003535s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003741s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.002873s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:46:32+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/jqueryui/style.css
+[运行时间：0.050094s] [吞吐率：19.96req/s] [内存消耗：2,507.80kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'jqueryui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/mobile/zpadmin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.002904s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004756s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:46:32+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/jqueryui/style.css
+[运行时间：0.040405s] [吞吐率：24.75req/s] [内存消耗：2,508.44kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'jqueryui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/mobile/zpadmin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003326s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003476s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000590s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.001025s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:46:56+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.068784s] [吞吐率：14.54req/s] [内存消耗：2,758.01kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000575s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.018684s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003170s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002917s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.002888s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000735s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:46:56+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/jqueryui/style.css
+[运行时间：0.059540s] [吞吐率：16.80req/s] [内存消耗：2,508.44kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'jqueryui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/mobile/zpadmin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004447s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004418s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:48:17+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.054581s] [吞吐率：18.32req/s] [内存消耗：2,762.76kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000528s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003485s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003084s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.004222s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003293s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:48:17+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/jqueryui/style.css
+[运行时间：0.047495s] [吞吐率：21.05req/s] [内存消耗：2,508.44kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'jqueryui',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/mobile/zpadmin/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.005643s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004012s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000477s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:57:10+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.051946s] [吞吐率：19.25req/s] [内存消耗：2,749.38kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000647s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003718s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002819s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000484s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003746s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003206s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000495s ]
+---------------------------------------------------------------
+[ 2020-01-20T20:58:54+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.064122s] [吞吐率：15.60req/s] [内存消耗：2,749.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000816s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.019653s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002812s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002877s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.002887s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000501s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:01:34+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.052081s] [吞吐率：19.20req/s] [内存消耗：2,749.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000629s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003199s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003061s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000445s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003061s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003848s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:02:04+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.080141s] [吞吐率：12.48req/s] [内存消耗：2,749.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000662s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.021915s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.007293s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000779s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000554s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002908s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003264s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:03:08+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.052937s] [吞吐率：18.89req/s] [内存消耗：2,749.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000638s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003387s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003448s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002875s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.002986s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:06:13+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.049520s] [吞吐率：20.19req/s] [内存消耗：2,597.09kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000565s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003253s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002962s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003224s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003388s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000602s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/index.html
+[运行时间：0.055087s] [吞吐率：18.15req/s] [内存消耗：2,609.09kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/index/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'newarticleres',
+  3 => 'sitehotres',
+  4 => 'linkres',
+  5 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000863s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003853s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003259s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002864s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`desc`,`a`.`thumb`,`a`.`click`,`a`.`zan`,`a`.`time`,`c`.`catename`,`a`.`cateid` FROM `bk_article` `a` INNER JOIN `bk_cate` `c` ON `a`.`cateid`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 5 [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_link` ORDER BY `sortn` DESC [ RunTime:0.000416s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.050199s] [吞吐率：19.92req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.068376s] [吞吐率：14.63req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.030907s] [吞吐率：32.36req/s] [内存消耗：1,167.33kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.021541s] [吞吐率：46.42req/s] [内存消耗：1,166.46kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/focus-bg2.png
+[运行时间：0.039767s] [吞吐率：25.15req/s] [内存消耗：1,166.64kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/loading.gif
+[运行时间：0.065334s] [吞吐率：15.31req/s] [内存消耗：1,166.63kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/sitemap-dot.gif
+[运行时间：0.043461s] [吞吐率：23.01req/s] [内存消耗：1,166.64kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.096374s] [吞吐率：10.38req/s] [内存消耗：1,167.33kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-01-20T21:06:53+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/images/focus-left-bg.png
+[运行时间：0.054208s] [吞吐率：18.45req/s] [内存消耗：2,507.64kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000649s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004578s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004595s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000528s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:07:00+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.052704s] [吞吐率：18.97req/s] [内存消耗：2,750.01kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003401s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002870s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003341s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003011s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000576s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:08:30+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.074198s] [吞吐率：13.48req/s] [内存消耗：2,750.26kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.020689s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003991s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003143s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003161s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000546s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:09:11+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.064321s] [吞吐率：15.55req/s] [内存消耗：2,750.26kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000601s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004300s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.002183s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005553s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.001205s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003090s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003375s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:11:09+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.086143s] [吞吐率：11.61req/s] [内存消耗：2,749.76kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000754s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.019934s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000522s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003740s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000861s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000540s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003326s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.004125s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:13:09+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.065841s] [吞吐率：15.19req/s] [内存消耗：2,749.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.019208s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003213s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002817s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003119s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:13:11+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.048126s] [吞吐率：20.78req/s] [内存消耗：2,597.34kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003307s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003269s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003528s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.003227s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000605s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:15:56+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.053333s] [吞吐率：18.75req/s] [内存消耗：2,751.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000617s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.003654s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.002814s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.003432s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000554s ]
+---------------------------------------------------------------
+[ 2020-01-20T21:17:14+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/mobile/zpadmin/index.html
+[运行时间：0.067402s] [吞吐率：14.84req/s] [内存消耗：2,751.51kb] [文件加载：51]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mobile',
+    1 => 'zpadmin',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:72.0) Gecko/20100101 Firefox/72.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/public/admin/index.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=l4ddome0f6iskuj839csf70pj0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mobile\controller\Zpadmin->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/mobile/controller/Zpadmin.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/mobile/view/zpadmin/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'zptreeres',
+  3 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.020301s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000577s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.003618s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000521s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.002492s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_zpadmin` [ RunTime:0.002940s ]
+[ sql ] [ SQL ] SELECT `id`,`pId`,`name` FROM `bk_zpadmin` [ RunTime:0.000689s ]

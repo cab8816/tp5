@@ -1,0 +1,314 @@
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/index.html
+[运行时间：0.116635s] [吞吐率：8.57req/s] [内存消耗：2,609.16kb] [文件加载：49]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Index->index[ /Applications/XAMPP/xamppfiles/htdocs/tp5/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /Applications/XAMPP/xamppfiles/htdocs/tp5/public/../application/index/view/index/index.htm [ array (
+  0 => 'confres',
+  1 => 'cateres',
+  2 => 'newarticleres',
+  3 => 'sitehotres',
+  4 => 'linkres',
+  5 => 'recartres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002147s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.023423s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.002292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.004273s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.002563s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.004438s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`desc`,`a`.`thumb`,`a`.`click`,`a`.`zan`,`a`.`time`,`c`.`catename`,`a`.`cateid` FROM `bk_article` `a` INNER JOIN `bk_cate` `c` ON `a`.`cateid`=`c`.`id` ORDER BY `a`.`id` DESC LIMIT 5 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`thumb` FROM `bk_article` ORDER BY `click` DESC LIMIT 5 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT `id`,`thumb`,`title` FROM `bk_article` WHERE  `rec` = 1 ORDER BY `id` DESC LIMIT 4 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_link` [ RunTime:0.004993s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_link` ORDER BY `sortn` DESC [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.048759s] [吞吐率：20.51req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.error.js
+[运行时间：0.050666s] [吞吐率：19.74req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.029744s] [吞吐率：33.62req/s] [内存消耗：1,166.98kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/jquery.form.js
+[运行时间：0.024239s] [吞吐率：41.26req/s] [内存消耗：1,166.24kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/loading.gif
+[运行时间：0.058963s] [吞吐率：16.96req/s] [内存消耗：1,166.29kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/style/img/tg.jpg
+[运行时间：0.098758s] [吞吐率：10.13req/s] [内存消耗：1,166.98kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+  'img' => 'tg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/focus-bg2.png
+[运行时间：0.090759s] [吞吐率：11.02req/s] [内存消耗：1,166.30kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/static/index/images/sitemap-dot.gif
+[运行时间：0.047135s] [吞吐率：21.22req/s] [内存消耗：1,166.30kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/static/index/style/style.css',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-03-28T21:18:50+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/index/index/images/focus-left-bg.png
+[运行时间：0.125980s] [吞吐率：7.94req/s] [内存消耗：2,507.41kb] [文件加载：48]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'image/webp,*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://127.0.0.1/tp5/public/index/index/index.html',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000808s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_conf` [ RunTime:0.004388s ]
+[ sql ] [ SQL ] SELECT `enname`,`cnname` FROM `bk_conf` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.015882s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 0 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 28 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 31 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 34 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 35 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` WHERE  `pid` = 37 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2020-03-28T21:19:06+08:00 ] 127.0.0.1 GET 127.0.0.1/tp5/public/info.php
+[运行时间：0.015820s] [吞吐率：63.21req/s] [内存消耗：1,166.30kb] [文件加载：30]
+[ info ] [ LANG ] /Applications/XAMPP/xamppfiles/htdocs/tp5/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'info.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:74.0) Gecko/20100101 Firefox/74.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

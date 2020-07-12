@@ -1,0 +1,2317 @@
+---------------------------------------------------------------
+[ 2019-11-20T21:02:49+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.080424s] [吞吐率：12.43req/s] [内存消耗：1,297.73kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:04:04+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.081916s] [吞吐率：12.21req/s] [内存消耗：2,096.38kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011901s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.012089s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000924s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:04:35+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.035943s] [吞吐率：27.82req/s] [内存消耗：1,162.77kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:15:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.031963s] [吞吐率：31.29req/s] [内存消耗：1,298.18kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:15:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.067022s] [吞吐率：14.92req/s] [内存消耗：2,096.38kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011048s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006584s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:15:09+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.022615s] [吞吐率：44.22req/s] [内存消耗：1,162.77kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:15:27+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.042617s] [吞吐率：23.46req/s] [内存消耗：2,096.38kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005895s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:15:29+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.030314s] [吞吐率：32.99req/s] [内存消耗：1,162.77kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:21:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.059090s] [吞吐率：16.92req/s] [内存消耗：2,097.68kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011154s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005809s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:21:52+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.038433s] [吞吐率：26.02req/s] [内存消耗：1,164.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:21:57+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.047776s] [吞吐率：20.93req/s] [内存消耗：2,045.54kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '59',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catename' => '很多很多',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005779s ]
+[ error ] [0]数据表字段不存在:[catename][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-20T21:23:33+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin
+[运行时间：0.045761s] [吞吐率：21.85req/s] [内存消耗：1,157.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:23:37+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.048835s] [吞吐率：20.48req/s] [内存消耗：2,097.41kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000974s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005606s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:23:39+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.026442s] [吞吐率：37.82req/s] [内存消耗：1,299.07kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:23:42+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.053582s] [吞吐率：18.66req/s] [内存消耗：2,032.95kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '58',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '撒大声地',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011065s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006061s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (0 , '撒大声地' , 0) [ RunTime:0.001464s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:23:45+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.060120s] [吞吐率：16.63req/s] [内存消耗：2,097.29kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001009s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005738s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000493s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:24:25+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin
+[运行时间：0.022819s] [吞吐率：43.82req/s] [内存消耗：1,157.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:24:27+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.075591s] [吞吐率：13.23req/s] [内存消耗：2,097.41kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011559s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005789s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:25:24+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.029528s] [吞吐率：33.87req/s] [内存消耗：1,164.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:25:32+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.050071s] [吞吐率：19.97req/s] [内存消耗：2,084.65kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '美国',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000957s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005920s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'[C:\xampp\htdocs\tp5\thinkphp\library\think\db\Connection.php:453]
+---------------------------------------------------------------
+[ 2019-11-20T21:26:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin
+[运行时间：0.028323s] [吞吐率：35.31req/s] [内存消耗：1,157.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:26:53+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.072685s] [吞吐率：13.76req/s] [内存消耗：2,097.41kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010792s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006586s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000510s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:26:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.022749s] [吞吐率：43.96req/s] [内存消耗：1,164.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:26:59+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.054258s] [吞吐率：18.43req/s] [内存消耗：2,032.66kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '美国',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011684s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006038s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (0 , '美国' , 0) [ RunTime:0.001852s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:27:02+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.069680s] [吞吐率：14.35req/s] [内存消耗：2,097.29kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011117s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005893s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:27:35+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin
+[运行时间：0.031560s] [吞吐率：31.69req/s] [内存消耗：1,157.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:27:37+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.066665s] [吞吐率：15.00req/s] [内存消耗：2,097.41kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011483s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005819s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:27:39+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.025424s] [吞吐率：39.33req/s] [内存消耗：1,164.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:27:45+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.053568s] [吞吐率：18.67req/s] [内存消耗：2,032.66kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '中国',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010512s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005785s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (0 , '中国' , 0) [ RunTime:0.002255s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:27:48+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.052293s] [吞吐率：19.12req/s] [内存消耗：2,097.29kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005798s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:31:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.069569s] [吞吐率：14.37req/s] [内存消耗：2,317.15kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011138s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005899s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000466s ]
+[ error ] [8]未定义变量: cate[C:\xampp\htdocs\tp5\runtime\temp\d2bfa5ae5c5a6bf709412eb33b4ccf1e.php:214]
+---------------------------------------------------------------
+[ 2019-11-20T21:32:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.051212s] [吞吐率：19.53req/s] [内存消耗：2,283.09kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005567s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:33:16+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.056348s] [吞吐率：17.75req/s] [内存消耗：2,280.05kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011571s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006584s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000396s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:34:36+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.071241s] [吞吐率：14.04req/s] [内存消耗：2,033.13kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '河南',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011910s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005807s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (0 , '河南' , 0) [ RunTime:0.001968s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:34:39+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.066191s] [吞吐率：15.11req/s] [内存消耗：2,097.76kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010923s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006484s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000532s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:34:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.056949s] [吞吐率：17.56req/s] [内存消耗：2,280.80kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011445s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005827s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:35:07+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.043930s] [吞吐率：22.76req/s] [内存消耗：2,033.13kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '40',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '4',
+  'catname' => '焦作',
+  'type' => 'on',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000960s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006220s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (4 , '焦作' , 0) [ RunTime:0.002322s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:35:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.059372s] [吞吐率：16.84req/s] [内存消耗：2,097.76kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005701s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:39:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin
+[运行时间：0.057023s] [吞吐率：17.54req/s] [内存消耗：1,157.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-20T21:39:52+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.069716s] [吞吐率：14.34req/s] [内存消耗：2,097.88kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010929s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005932s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:39:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.067652s] [吞吐率：14.78req/s] [内存消耗：2,281.84kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000945s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005505s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:40:20+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.060642s] [吞吐率：16.49req/s] [内存消耗：2,046.63kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '广东',
+  'type' => '1',
+  'name' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001060s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005818s ]
+[ error ] [0]数据表字段不存在:[name][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:12+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.053180s] [吞吐率：18.80req/s] [内存消耗：2,046.63kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '广东',
+  'type' => '1',
+  'name' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011449s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006270s ]
+[ error ] [0]数据表字段不存在:[name][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:14+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.065426s] [吞吐率：15.28req/s] [内存消耗：2,281.45kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011275s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005738s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:18+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.043384s] [吞吐率：23.05req/s] [内存消耗：2,033.13kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '0',
+  'catname' => '广东',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005453s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (0 , '广东' , 1) [ RunTime:0.001951s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:21+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.052350s] [吞吐率：19.10req/s] [内存消耗：2,097.76kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005668s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:22+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.059891s] [吞吐率：16.70req/s] [内存消耗：2,083.99kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011580s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005554s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:40+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.075794s] [吞吐率：13.19req/s] [内存消耗：2,033.13kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '6',
+  'catname' => '广州',
+  'type' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011460s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005790s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (6 , '广州' , 2) [ RunTime:0.002208s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:41:43+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.064723s] [吞吐率：15.45req/s] [内存消耗：2,097.76kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005454s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:43:00+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/add.html
+[运行时间：0.066469s] [吞吐率：15.04req/s] [内存消耗：2,283.91kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000940s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005745s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` [ RunTime:0.000460s ]
+---------------------------------------------------------------
+[ 2019-11-20T21:43:21+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.061581s] [吞吐率：16.24req/s] [内存消耗：2,033.13kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=74h5fnsuk63m9n0kris2fvvhq7',
+)
+[ info ] [ PARAM ] array (
+  'pid' => '6',
+  'catname' => '河源',
+  'type' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011734s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006118s ]
+[ sql ] [ SQL ] INSERT INTO `bk_cate` (`pid` , `catname` , `type`) VALUES (6 , '河源' , 1) [ RunTime:0.001891s ]

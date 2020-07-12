@@ -1,0 +1,4501 @@
+---------------------------------------------------------------
+[ 2019-11-26T21:19:24+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.067688s] [吞吐率：14.77req/s] [内存消耗：1,147.16kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:27+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/login/index.html
+[运行时间：0.031735s] [吞吐率：31.51req/s] [内存消耗：1,103.61kb] [文件加载：36]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\xampp\htdocs\tp5\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\login\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:32+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/login/index.html
+[运行时间：0.049592s] [吞吐率：20.16req/s] [内存消耗：2,066.03kb] [文件加载：46]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '25',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ C:\xampp\htdocs\tp5\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001253s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006198s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` WHERE  `name` = 'admin' LIMIT 1 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2019-11-26T21:19:35+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/index/index.html
+[运行时间：0.051028s] [吞吐率：19.60req/s] [内存消耗：1,158.09kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:39+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.023080s] [吞吐率：43.33req/s] [内存消耗：1,163.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.054431s] [吞吐率：18.37req/s] [内存消耗：2,089.79kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011650s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005850s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.038675s] [吞吐率：25.86req/s] [内存消耗：1,129.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.037334s] [吞吐率：26.79req/s] [内存消耗：1,128.85kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.026511s] [吞吐率：37.72req/s] [内存消耗：1,129.48kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.027213s] [吞吐率：36.75req/s] [内存消耗：1,129.61kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T21:19:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.044435s] [吞吐率：22.50req/s] [内存消耗：1,129.54kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.072254s] [吞吐率：13.84req/s] [内存消耗：2,292.01kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011921s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006544s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000473s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.050327s] [吞吐率：19.87req/s] [内存消耗：1,129.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.033404s] [吞吐率：29.94req/s] [内存消耗：1,128.85kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.027288s] [吞吐率：36.65req/s] [内存消耗：1,129.54kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.038059s] [吞吐率：26.27req/s] [内存消耗：1,129.48kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:03+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.032841s] [吞吐率：30.45req/s] [内存消耗：1,129.61kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.042325s] [吞吐率：23.63req/s] [内存消耗：2,089.42kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001077s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005630s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:13:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.028280s] [吞吐率：35.36req/s] [内存消耗：1,129.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.023449s] [吞吐率：42.65req/s] [内存消耗：1,128.85kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.032052s] [吞吐率：31.20req/s] [内存消耗：1,129.48kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.034606s] [吞吐率：28.90req/s] [内存消耗：1,129.61kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:08+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.044050s] [吞吐率：22.70req/s] [内存消耗：1,129.54kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:11+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.034511s] [吞吐率：28.98req/s] [内存消耗：1,163.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:14+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.022448s] [吞吐率：44.55req/s] [内存消耗：1,163.08kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:29+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/cate/lst.html
+[运行时间：0.069589s] [吞吐率：14.37req/s] [内存消耗：2,313.48kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\cate\lst.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011257s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006408s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000565s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:13:32+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.021578s] [吞吐率：46.34req/s] [内存消耗：1,163.03kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.065334s] [吞吐率：15.31req/s] [内存消耗：2,089.79kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001378s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006006s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000559s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.024740s] [吞吐率：40.42req/s] [内存消耗：1,129.45kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.028229s] [吞吐率：35.42req/s] [内存消耗：1,128.85kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.028070s] [吞吐率：35.63req/s] [内存消耗：1,129.54kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.033651s] [吞吐率：29.72req/s] [内存消耗：1,129.48kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:13:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.037547s] [吞吐率：26.63req/s] [内存消耗：1,129.61kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:33:27+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.064870s] [吞吐率：15.42req/s] [内存消耗：2,056.97kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '1',
+  'thumb' => 'IMG_6916.JPG',
+  'catename' => '很多很多',
+  'editorValue' => '<p>所发生的发上海上海</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011810s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005738s ]
+[ error ] [0]数据表字段不存在:[title][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:35:38+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.061522s] [吞吐率：16.25req/s] [内存消耗：2,056.97kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '1',
+  'thumb' => 'IMG_6916.JPG',
+  'catename' => '很多很多',
+  'editorValue' => '<p>所发生的发上海上海</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011106s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006246s ]
+[ error ] [0]数据表字段不存在:[title][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.053590s] [吞吐率：18.66req/s] [内存消耗：2,293.98kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005852s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.025486s] [吞吐率：39.24req/s] [内存消耗：1,131.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.027999s] [吞吐率：35.72req/s] [内存消耗：1,130.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.024674s] [吞吐率：40.53req/s] [内存消耗：1,131.30kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.039762s] [吞吐率：25.15req/s] [内存消耗：1,131.37kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:35:40+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.038533s] [吞吐率：25.95req/s] [内存消耗：1,131.44kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:35:50+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.053516s] [吞吐率：18.69req/s] [内存消耗：2,056.64kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '71',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '1',
+  'thumb' => 'IMG_6916.JPG',
+  'cateid' => '22',
+  'content' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011764s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005694s ]
+[ error ] [0]数据表字段不存在:[title][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.052501s] [吞吐率：19.05req/s] [内存消耗：2,091.18kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010992s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005687s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.027680s] [吞吐率：36.13req/s] [内存消耗：1,131.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.023572s] [吞吐率：42.42req/s] [内存消耗：1,130.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.025382s] [吞吐率：39.40req/s] [内存消耗：1,131.37kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.035527s] [吞吐率：28.15req/s] [内存消耗：1,131.30kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:36:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.033523s] [吞吐率：29.83req/s] [内存消耗：1,131.44kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:36:17+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/cate/add.html
+[运行时间：0.069603s] [吞吐率：14.37req/s] [内存消耗：2,056.64kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'cate',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '71',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '1',
+  'thumb' => 'IMG_6916.JPG',
+  'cateid' => '22',
+  'content' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Cate->add[ C:\xampp\htdocs\tp5\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011582s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005913s ]
+[ error ] [0]数据表字段不存在:[title][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.077209s] [吞吐率：12.95req/s] [内存消耗：2,293.93kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011428s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006301s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.029887s] [吞吐率：33.46req/s] [内存消耗：1,131.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.035357s] [吞吐率：28.28req/s] [内存消耗：1,130.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.025714s] [吞吐率：38.89req/s] [内存消耗：1,131.30kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.035749s] [吞吐率：27.97req/s] [内存消耗：1,131.37kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:38:05+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.044896s] [吞吐率：22.27req/s] [内存消耗：1,131.44kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:38:34+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.052022s] [吞吐率：19.22req/s] [内存消耗：2,050.23kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '然后才是大红色',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>是的发送到发送到和速度</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010992s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.005798s ]
+[ error ] [0]数据表字段不存在:[keyword][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:38:47+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.048906s] [吞吐率：20.45req/s] [内存消耗：2,050.23kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '然后才是大红色',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>是的发送到发送到和速度</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.005588s ]
+[ error ] [0]数据表字段不存在:[keyword][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:39:21+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.042690s] [吞吐率：23.42req/s] [内存消耗：2,050.23kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keyword' => '1',
+  'desc' => '然后才是大红色',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>是的发送到发送到和速度</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.005765s ]
+[ error ] [0]数据表字段不存在:[keyword][C:\xampp\htdocs\tp5\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.072039s] [吞吐率：13.88req/s] [内存消耗：2,293.93kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/cate/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011720s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006460s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.024032s] [吞吐率：41.61req/s] [内存消耗：1,131.27kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.022733s] [吞吐率：43.99req/s] [内存消耗：1,130.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.025752s] [吞吐率：38.83req/s] [内存消耗：1,131.37kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.030124s] [吞吐率：33.20req/s] [内存消耗：1,131.30kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:39:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.030140s] [吞吐率：33.18req/s] [内存消耗：1,131.44kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:39:29+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.059703s] [吞吐率：16.75req/s] [内存消耗：2,038.34kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '254',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keywords' => '111',
+  'desc' => '然后才是大红色',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>是的发送到发送到和速度</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011070s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.006464s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `thumb` , `cateid` , `content`) VALUES ('777' , '1' , '111' , '然后才是大红色' , 'DSC01741.JPG' , 22 , '<p>是的发送到发送到和速度</p>') [ RunTime:0.003081s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:39:32+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.032216s] [吞吐率：31.04req/s] [内存消耗：1,164.77kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.063447s] [吞吐率：15.76req/s] [内存消耗：2,093.56kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011231s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.006195s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000503s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.028802s] [吞吐率：34.72req/s] [内存消耗：1,133.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.031693s] [吞吐率：31.55req/s] [内存消耗：1,132.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.026241s] [吞吐率：38.11req/s] [内存消耗：1,133.25kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.035718s] [吞吐率：28.00req/s] [内存消耗：1,133.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.043017s] [吞吐率：23.25req/s] [内存消耗：1,133.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:54:38+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.053363s] [吞吐率：18.74req/s] [内存消耗：1,938.89kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keywords' => '111',
+  'desc' => '问问',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>了特瑞特了乌拉特流通股</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: thumb[C:\xampp\htdocs\tp5\application\admin\controller\Article.php:22]
+---------------------------------------------------------------
+[ 2019-11-26T22:58:41+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.060754s] [吞吐率：16.46req/s] [内存消耗：1,938.89kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'origin' => 'http://localhost',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keywords' => '111',
+  'desc' => '问问',
+  'thumb' => 'DSC01741.JPG',
+  'cateid' => '22',
+  'content' => '<p>了特瑞特了乌拉特流通股</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: thumb[C:\xampp\htdocs\tp5\application\admin\controller\Article.php:22]
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.074863s] [吞吐率：13.36req/s] [内存消耗：2,295.92kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011830s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005978s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000505s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.030769s] [吞吐率：32.50req/s] [内存消耗：1,133.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.023074s] [吞吐率：43.34req/s] [内存消耗：1,132.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.033817s] [吞吐率：29.57req/s] [内存消耗：1,133.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.038221s] [吞吐率：26.16req/s] [内存消耗：1,133.25kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:59:10+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.047622s] [吞吐率：21.00req/s] [内存消耗：1,133.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T22:59:12+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.072274s] [吞吐率：13.84req/s] [内存消耗：2,039.66kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4634228',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6KPyktxn0rMLzkCt',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '777',
+  'author' => '1',
+  'keywords' => '111',
+  'desc' => '问问',
+  'cateid' => '22',
+  'content' => '<p>了特瑞特了乌拉特流通股</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010886s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.006037s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `cateid` , `content`) VALUES ('777' , '1' , '111' , '问问' , 22 , '<p>了特瑞特了乌拉特流通股</p>') [ RunTime:0.002744s ]
+---------------------------------------------------------------
+[ 2019-11-26T22:59:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.037768s] [吞吐率：26.48req/s] [内存消耗：1,166.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.059466s] [吞吐率：16.82req/s] [内存消耗：2,093.56kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010251s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005737s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000471s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.026822s] [吞吐率：37.28req/s] [内存消耗：1,133.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.041561s] [吞吐率：24.06req/s] [内存消耗：1,132.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.029869s] [吞吐率：33.48req/s] [内存消耗：1,133.25kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.039278s] [吞吐率：25.46req/s] [内存消耗：1,133.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:20+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.047229s] [吞吐率：21.17req/s] [内存消耗：1,133.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:02:33+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.056725s] [吞吐率：17.63req/s] [内存消耗：2,039.53kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4634203',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary48jxpiKOqErrwRCk',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '11',
+  'author' => '22',
+  'keywords' => '22',
+  'desc' => '333',
+  'cateid' => '22',
+  'content' => '<p>232323232323</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010906s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.005635s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `cateid` , `content`) VALUES ('11' , '22' , '22' , '333' , 22 , '<p>232323232323</p>') [ RunTime:0.002203s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:02:36+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.038194s] [吞吐率：26.18req/s] [内存消耗：1,166.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.059815s] [吞吐率：16.72req/s] [内存消耗：2,093.86kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011765s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005531s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000646s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.026145s] [吞吐率：38.25req/s] [内存消耗：1,133.52kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.030524s] [吞吐率：32.76req/s] [内存消耗：1,132.92kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.026155s] [吞吐率：38.23req/s] [内存消耗：1,133.55kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.030613s] [吞吐率：32.67req/s] [内存消耗：1,133.61kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:04:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.034719s] [吞吐率：28.80req/s] [内存消耗：1,133.68kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:05:01+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.021359s] [吞吐率：46.82req/s] [内存消耗：1,109.10kb] [文件加载：35]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4634192',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryx0tzj0wA77mWwhEt',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '22',
+  'keywords' => '22',
+  'desc' => '33',
+  'cateid' => '33',
+  'content' => '<p>333</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.063138s] [吞吐率：15.84req/s] [内存消耗：2,295.02kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011603s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005825s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.029940s] [吞吐率：33.40req/s] [内存消耗：1,133.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.022214s] [吞吐率：45.02req/s] [内存消耗：1,132.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.034486s] [吞吐率：29.00req/s] [内存消耗：1,133.25kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.039197s] [吞吐率：25.51req/s] [内存消耗：1,133.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.043705s] [吞吐率：22.88req/s] [内存消耗：1,133.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:07:47+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.044954s] [吞吐率：22.24req/s] [内存消耗：2,039.44kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4634192',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypez85f6pk432QAYI',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '1',
+  'author' => '22',
+  'keywords' => '22',
+  'desc' => '33',
+  'cateid' => '33',
+  'content' => '<p>333</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001244s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.006170s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `cateid` , `content`) VALUES ('1' , '22' , '22' , '33' , 33 , '<p>333</p>') [ RunTime:0.001872s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:07:50+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.023585s] [吞吐率：42.40req/s] [内存消耗：1,166.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:06+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/add.html
+[运行时间：0.078189s] [吞吐率：12.79req/s] [内存消耗：2,092.66kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\add.htm [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011471s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_cate` [ RunTime:0.005873s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_cate` ORDER BY `sort` DESC [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:12:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/default/css/ueditor.css
+[运行时间：0.041328s] [吞吐率：24.20req/s] [内存消耗：1,133.22kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'default' => 'css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthemes/iframe.css
+[运行时间：0.030034s] [吞吐率：33.30req/s] [内存消耗：1,132.63kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthemes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.js
+[运行时间：0.034173s] [吞吐率：29.26req/s] [内存消耗：1,133.25kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/codemirror/codemirror.css
+[运行时间：0.039845s] [吞吐率：25.10req/s] [内存消耗：1,133.31kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'codemirror' => 'codemirror.css',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:07+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/undefinedthird-party/zeroclipboard/ZeroClipboard.js
+[运行时间：0.044830s] [吞吐率：22.31req/s] [内存消耗：1,133.38kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'undefinedthird-party',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => '*/*',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'zeroclipboard' => 'ZeroClipboard.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-11-26T23:12:17+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/article/add.html
+[运行时间：0.056745s] [吞吐率：17.62req/s] [内存消耗：2,039.47kb] [文件加载：47]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '4634197',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA3O2QSXY1rsZOHVV',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+  'title' => '11',
+  'author' => '11',
+  'keywords' => '111',
+  'desc' => '111',
+  'cateid' => '111',
+  'content' => '<p>1111</p>',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->add[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011611s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_article` [ RunTime:0.005895s ]
+[ sql ] [ SQL ] INSERT INTO `bk_article` (`title` , `author` , `keywords` , `desc` , `cateid` , `content`) VALUES ('11' , '11' , '111' , '111' , 111 , '<p>1111</p>') [ RunTime:0.002260s ]
+---------------------------------------------------------------
+[ 2019-11-26T23:12:21+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/article/lst.html
+[运行时间：0.026904s] [吞吐率：37.17req/s] [内存消耗：1,166.71kb] [文件加载：38]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'navigate',
+  'referer' => 'http://localhost/tp5/public/admin/article/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 'Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1847825167.1565618075; Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; pgv_pvi=4210754560; PHPSESSID=g0367ra3ilraddh8re6a4ugo8m',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\article\lst.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File

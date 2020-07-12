@@ -1,0 +1,2370 @@
+---------------------------------------------------------------
+[ 2019-12-22T21:11:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/index/index.html
+[运行时间：0.064411s] [吞吐率：15.53req/s] [内存消耗：1,290.27kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => '_ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:11:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/index/index.html
+[运行时间：0.038066s] [吞吐率：26.27req/s] [内存消耗：1,290.78kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:12:00+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.060336s] [吞吐率：16.57req/s] [内存消耗：2,372.75kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/index/index.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001822s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006307s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:12:02+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.071956s] [吞吐率：13.90req/s] [内存消耗：2,322.20kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\add.htm [ array (
+  0 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020374s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.006407s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000472s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:17:18+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.071414s] [吞吐率：14.00req/s] [内存消耗：2,461.27kb] [文件加载：51]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\add.htm [ array (
+  0 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011612s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.006124s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:17:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/static/admin/style/jquery.slimscroll.min.js.map
+[运行时间：0.025623s] [吞吐率：39.03req/s] [内存消耗：1,048.63kb] [文件加载：30]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'style',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => '_ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:22:49+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/index/index.html
+[运行时间：0.034213s] [吞吐率：29.23req/s] [内存消耗：1,290.78kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\xampp\htdocs\tp5\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\index\index.htm [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:22:52+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.059208s] [吞吐率：16.89req/s] [内存消耗：2,372.80kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/index/index.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012455s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005861s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:22:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.061977s] [吞吐率：16.14req/s] [内存消耗：2,322.27kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\add.htm [ array (
+  0 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011678s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005575s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:23:02+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.022265s] [吞吐率：44.91req/s] [内存消耗：1,243.09kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '60',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/add.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '20',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:25:43+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.027707s] [吞吐率：36.09req/s] [内存消耗：1,243.38kb] [文件加载：37]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/add.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '60',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '20',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:26:12+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.026480s] [吞吐率：37.76req/s] [内存消耗：1,248.69kb] [文件加载：40]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/add.html',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '60',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'title' => '',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '20',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:26:15+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.068755s] [吞吐率：14.54req/s] [内存消耗：2,322.65kb] [文件加载：49]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\add.htm [ array (
+  0 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011622s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.006188s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:26:38+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/add.html
+[运行时间：0.055780s] [吞吐率：17.93req/s] [内存消耗：2,240.31kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '111',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/add.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'title' => '链接专员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '20',
+    3 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->add[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012507s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005683s ]
+[ sql ] [ SQL ] INSERT INTO `bk_auth_group` (`title` , `status` , `rules`) VALUES ('链接专员' , 1 , '16,18,20,19') [ RunTime:0.000414s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:26:41+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.068158s] [吞吐率：14.67req/s] [内存消耗：2,373.19kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/add.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001583s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005774s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:27:00+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.067642s] [吞吐率：14.78req/s] [内存消耗：2,337.13kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011914s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005620s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.006053s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000407s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000364s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000405s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:33:36+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.079230s] [吞吐率：12.62req/s] [内存消耗：2,434.31kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011843s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005805s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005503s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000332s ]
+[ error ] [0]语法解析错误: syntax error, unexpected 'dataid' (T_STRING), expecting ',' or ';'[C:\xampp\htdocs\tp5\runtime\temp\5f55048711a28c2eadc5ea2c0cf4c972.php:299]
+---------------------------------------------------------------
+[ 2019-12-22T21:35:17+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.076331s] [吞吐率：13.10req/s] [内存消耗：2,502.20kb] [文件加载：56]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012268s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005701s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005695s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000363s ]
+[ error ] [8]未定义变量: authgroups[C:\xampp\htdocs\tp5\runtime\temp\5f55048711a28c2eadc5ea2c0cf4c972.php:298]
+---------------------------------------------------------------
+[ 2019-12-22T21:35:19+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.066891s] [吞吐率：14.95req/s] [内存消耗：2,359.25kb] [文件加载：54]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011867s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005876s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005158s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000401s ]
+[ error ] [8]未定义变量: authgroups[C:\xampp\htdocs\tp5\runtime\temp\5f55048711a28c2eadc5ea2c0cf4c972.php:298]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:13+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.075976s] [吞吐率：13.16req/s] [内存消耗：2,484.48kb] [文件加载：52]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011639s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006027s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005473s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:18+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/admin/lst.html
+[运行时间：0.067502s] [吞吐率：14.81req/s] [内存消耗：2,379.17kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/6.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011556s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.006150s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` LIMIT 0,5 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:24+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/admin/lst.html?page=3
+[运行时间：0.057239s] [吞吐率：17.47req/s] [内存消耗：2,378.52kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/admin/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011687s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005686s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` LIMIT 10,5 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:26+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/admin/lst.html?page=2
+[运行时间：0.058560s] [吞吐率：17.08req/s] [内存消耗：2,379.48kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/admin/lst.html?page=3',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012178s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005539s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` LIMIT 5,5 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:29+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/admin/lst.html?page=1
+[运行时间：0.055344s] [吞吐率：18.07req/s] [内存消耗：2,379.59kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/admin/lst.html?page=2',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\xampp\htdocs\tp5\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\admin\lst.htm [ array (
+  0 => 'adminres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011898s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_admin` [ RunTime:0.005471s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_admin` LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_admin` LIMIT 0,5 [ RunTime:0.000339s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:32+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.056362s] [吞吐率：17.74req/s] [内存消耗：2,373.19kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/admin/lst.html?page=1',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011538s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005599s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:34+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/6.html
+[运行时间：0.068275s] [吞吐率：14.65req/s] [内存消耗：2,337.35kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012322s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005833s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005794s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:37+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.057248s] [吞吐率：17.47req/s] [内存消耗：2,373.19kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/6.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011853s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006060s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:38+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.065658s] [吞吐率：15.23req/s] [内存消耗：2,337.35kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012249s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005588s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005496s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:36:43+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.045317s] [吞吐率：22.07req/s] [内存消耗：2,111.24kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '47',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:36:46+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.066240s] [吞吐率：15.10req/s] [内存消耗：2,337.35kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001690s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005543s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005606s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:37:51+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.034352s] [吞吐率：29.11req/s] [内存消耗：2,111.24kb] [文件加载：48]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '47',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-12-22T21:37:54+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.085764s] [吞吐率：11.66req/s] [内存消耗：2,484.41kb] [文件加载：52]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'connection' => 'keep-alive',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011925s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005711s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005719s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000395s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:38:34+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.055882s] [吞吐率：17.89req/s] [内存消耗：2,294.69kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '92',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001815s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006122s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='管理员',`status`=1  WHERE  `id` = 3 [ RunTime:0.000512s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:38:37+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.059173s] [吞吐率：16.90req/s] [内存消耗：2,373.19kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001651s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005821s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000429s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:38:41+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.071610s] [吞吐率：13.96req/s] [内存消耗：2,337.38kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012336s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005645s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005600s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:38:44+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.046601s] [吞吐率：21.46req/s] [内存消耗：2,294.69kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '92',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '20',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002013s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005735s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='管理员',`status`=1  WHERE  `id` = 3 [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:38:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.055583s] [吞吐率：17.99req/s] [内存消耗：2,373.19kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001705s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005491s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:25+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.075785s] [吞吐率：13.20req/s] [内存消耗：2,337.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011526s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.007397s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005933s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000423s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000577s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:27+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.073852s] [吞吐率：13.54req/s] [内存消耗：2,295.56kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '92',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011966s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005778s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='管理员',`status`=1,`rules`='16,18,19'  WHERE  `id` = 3 [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:30+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.077618s] [吞吐率：12.88req/s] [内存消耗：2,373.44kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012389s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006060s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:36+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/4.html
+[运行时间：0.065759s] [吞吐率：15.21req/s] [内存消耗：2,337.62kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012124s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006208s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005413s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:39+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/4.html
+[运行时间：0.047472s] [吞吐率：21.07req/s] [内存消耗：2,295.48kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '74',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/4.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'title' => '用户',
+  'rules' => 
+  array (
+    0 => '16',
+    1 => '18',
+    2 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001651s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005569s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='用户',`rules`='16,18,19',`status`=0  WHERE  `id` = 4 [ RunTime:0.000644s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:42:42+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.063314s] [吞吐率：15.79req/s] [内存消耗：2,373.45kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/4.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001618s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:23+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.064602s] [吞吐率：15.48req/s] [内存消耗：2,337.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011556s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005382s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:25+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.056204s] [吞吐率：17.79req/s] [内存消耗：2,295.68kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '121',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '2',
+    1 => '10',
+    2 => '16',
+    3 => '18',
+    4 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012333s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005770s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='管理员',`status`=1,`rules`='2,10,16,18,19'  WHERE  `id` = 3 [ RunTime:0.000568s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:29+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.074307s] [吞吐率：13.46req/s] [内存消耗：2,373.45kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011604s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005667s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:42+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.058582s] [吞吐率：17.07req/s] [内存消耗：2,337.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/lst.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\edit.htm [ array (
+  0 => 'auth_groups',
+  1 => 'authRuleres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002170s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.005877s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_rule` [ RunTime:0.005193s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` ORDER BY `sortn` DESC [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000530s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_rule` [ RunTime:0.000458s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:44+08:00 ] 0.0.0.0 POST localhost/tp5/public/admin/auth_group/edit/id/3.html
+[运行时间：0.055914s] [吞吐率：17.88req/s] [内存消耗：2,295.68kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '121',
+  'origin' => 'http://localhost',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'title' => '管理员',
+  'status' => '1',
+  'rules' => 
+  array (
+    0 => '2',
+    1 => '10',
+    2 => '16',
+    3 => '18',
+    4 => '19',
+  ),
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->edit[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011915s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006579s ]
+[ sql ] [ SQL ] UPDATE `bk_auth_group`  SET `title`='管理员',`status`=1,`rules`='2,10,16,18,19'  WHERE  `id` = 3 [ RunTime:0.000524s ]
+---------------------------------------------------------------
+[ 2019-12-22T21:43:47+08:00 ] 0.0.0.0 GET localhost/tp5/public/admin/auth_group/lst.html
+[运行时间：0.074118s] [吞吐率：13.49req/s] [内存消耗：2,373.45kb] [文件加载：53]
+[ info ] [ LANG ] C:\xampp\htdocs\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'auth_group',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'referer' => 'http://localhost/tp5/public/admin/auth_group/edit/id/3.html',
+  'cookie' => 'Phpstorm-59ffdf3e=4f9c2124-f037-4135-ab85-dd17671ecb82; Webstorm-bbf7ba1a=4adf1af4-7758-46da-b7ef-784892210ecd; _ga=GA1.1.1339423825.1565618129; PHPSESSID=v86g75pa16er3jj18886km0bks',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\AuthGroup->lst[ C:\xampp\htdocs\tp5\application\admin\controller\AuthGroup.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\xampp\htdocs\tp5\public/../application/admin\view\auth_group\lst.htm [ array (
+  0 => 'authgroupres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011543s ] mysql:host=127.0.0.1;port=3306;dbname=bick;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bk_auth_group` [ RunTime:0.006711s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bk_auth_group` LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `bk_auth_group` LIMIT 0,3 [ RunTime:0.000364s ]
