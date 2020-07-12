@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>童老师ThinkPHP交流群：484519446</title>
+  
+  <meta name="description" content="Dashboard">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--Basic Styles-->
+  <link href="__ADMIN__/style/bootstrap.css" rel="stylesheet">
+  <link href="__ADMIN__/style/font-awesome.css" rel="stylesheet">
+  <link href="__ADMIN__/style/weather-icons.css" rel="stylesheet">
+  
+  <!--Beyond styles-->
+  <link id="beyond-link" href="__ADMIN__/style/beyond.css" rel="stylesheet" type="text/css">
+  <link href="__ADMIN__/style/demo.css" rel="stylesheet">
+  <link href="__ADMIN__/style/typicons.css" rel="stylesheet">
+  <link href="__ADMIN__/style/animate.css" rel="stylesheet">
+  
+  <script src="__ADMIN__/ueditor/ueditor.all.js"></script>
+  <script src="__ADMIN__/ueditor/ueditor.all.min.js"></script>
+  <script src="__ADMIN__/ueditor/lang/zh-cn/zh-cn.js"></script>
+
+</head>
+<body>
+<!-- 头部 -->
+{include file="public/top" /}
+<!-- /头部 -->
+
+<div class="main-container container-fluid">
+  <div class="page-container">
+    <!-- Page Sidebar -->
+    {include file="public/left" /}
+    <!-- /Page Sidebar -->
+    <!-- Page Content -->
+    <div class="page-content">
+      <!-- Page Breadcrumb -->
+      <div class="page-breadcrumbs">
+        <ul class="breadcrumb">
+          <li>
+            <a href="#">系统</a>
+          </li>
+          <li>
+            <a href="{:url('lst')}">家谱管理</a>
+          </li>
+          <li class="active">修改家谱成员</li>
+        </ul>
+      </div>
+      <!-- /Page Breadcrumb -->
+      
+      <!-- Page Body -->
+      <div class="page-body">
+        
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-xs-12">
+            <div class="widget">
+              <div class="widget-header bordered-bottom bordered-blue">
+                <span class="widget-caption">修改家谱成员</span>
+              </div>
+              <div class="widget-body">
+                <div id="horizontal-form">
+                  <form class="form-horizontal" role="form" action="" method="post">
+  
+                    <input type="hidden" name="id" value="{$zpadmins.id}">
+                    <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">上辈</label>
+                      <div class="col-sm-6">
+                        <select name="pid">
+                          <option value="0">先祖</option>
+                          {volist name = "zpadminres" id="zpadmin"}
+                          <option <option {if  condition="$zpadmins['pid'] eq $zpadmin['id']" }selected="selected" {/if}
+                            value="{$zpadmin.id}">{if condition="$zpadmin['pid'] neq 0"}<?php echo str_repeat('&nbsp;&nbsp',$zpadmin['level']*3); ?>┗<?php echo str_repeat('━',1); ?>{/if}{$zpadmin.name}
+                          </option>
+                          {/volist}
+                        </select>
+                      </div>
+                      <p class="help-block col-sm-4 red">* 必填</p>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">姓</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" placeholder="" value="{$zpadmins.xing}" name="xing" type="text">
+                      </div>
+                      <p class="help-block col-sm-4 red">* 必填</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">名</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" placeholder="" value="{$zpadmins.ming}"  name="ming" type="text">
+                      </div>
+                      <p class="help-block col-sm-4 red">* 必填</p>
+                    </div>
+                    <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">配偶</label>
+                      <div class="col-sm-6">
+                        <input class="form-control" placeholder="" value="{$zpadmins.peiou}"  name="peiou" type="text">
+                      </div>
+                      <p class="help-block col-sm-4 red">* 必填</p>
+                    </div>
+
+
+
+                     <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">排行</label>
+                      <div class="col-sm-6">
+                        <div class="col-sm-6">
+                          <select name="paih">
+                            <option value="1" {if  condition="$zpadmins['paih'] eq 1" }selected="selected" {/if}>老大</option>
+                            <option value="2" {if  condition="$zpadmins['paih'] eq 2" }selected="selected" {/if}>老二</option>
+                            <option value="3" {if  condition="$zpadmins['paih'] eq 3" }selected="selected" {/if}>老三</option>
+                            <option value="4" {if  condition="$zpadmins['paih'] eq 4" }selected="selected" {/if}>老四</option>
+                            <option value="5" {if  condition="$zpadmins['paih'] eq 5" }selected="selected" {/if}>老五</option>
+                            <option value="6" {if  condition="$zpadmins['paih'] eq 6" }selected="selected" {/if}>老六</option>
+                            <option value="7" {if  condition="$zpadmins['paih'] eq 7" }selected="selected" {/if}>老七</option>
+                            <option value="8" {if  condition="$zpadmins['paih'] eq 8" }selected="selected" {/if}>老八</option>
+                            <option value="9" {if  condition="$zpadmins['paih'] eq 9" }selected="selected" {/if}>老九</option>
+                            <option value="10" {if  condition="$zpadmins['paih'] eq 10" }selected="selected" {/if}>老十</option>
+                            <option value="11" {if  condition="$zpadmins['paih'] eq 11" }selected="selected" {/if}>十一</option>
+                            <option value="12" {if  condition="$zpadmins['paih'] eq 12" }selected="selected" {/if}>十二</option>
+                            <option value="13" {if  condition="$zpadmins['paih'] eq 13" }selected="selected" {/if}>十三</option>
+                            <option value="14" {if  condition="$zpadmins['paih'] eq 14" }selected="selected" {/if}>十四</option>
+                            <option value="15" {if  condition="$zpadmins['paih'] eq 15" }selected="selected" {/if}>十五</option>
+                            <option value="16" {if  condition="$zpadmins['paih'] eq 16" }selected="selected" {/if}>十六</option>
+                            <option value="17" {if  condition="$zpadmins['paih'] eq 17" }selected="selected" {/if}>十七</option>
+                            <option value="18" {if  condition="$zpadmins['paih'] eq 18" }selected="selected" {/if}>十八</option>
+                      
+                          </select>
+                        </div>
+                      </div>
+                      <p class="help-block col-sm-4 red">* 必填</p>
+                    </div>
+  
+                    <div class="form-group">
+                      <label for="name"
+                             class="col-sm-2 control-label no-padding-right">关系</label>
+                      <div class="col-sm-6">
+                    <label style="margin-right: 15px">
+                      <input  name="guanx" {if condition="$zpadmins['guanx'] eq 1"}checked="checked"{/if} value="1" type="radio">
+                      <span class="text">儿子</span>
+                    </label>
+                    <label style="margin-right: 15px">
+                      <input  name="guanx" {if condition="$zpadmins['guanx'] eq 2"}checked="checked"{/if} value="2" type="radio">
+                      <span class="text">女儿</span>
+                    </label>
+                  
+                </div>
+                <p class="help-block col-sm-4 red">* 必填</p>
+              </div>
+  
+  
+              <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">保存信息</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Page Body -->
+    </div>
+    <!-- /Page Content -->
+  </div>
+</div>
+
+<!--Basic Scripts-->
+<script src="__ADMIN__/style/jquery_002.js"></script>
+<script src="__ADMIN__/style/bootstrap.js"></script>
+<script src="__ADMIN__/style/jquery.js"></script>
+<!--Beyond Scripts-->
+<script src="__ADMIN__/style/beyond.js"></script>
+
+<script type="text/javascript">
+  //实例化编辑器
+  UE.getEditor('content', {initialFrameWidth: 794, initialFrameHeight: 400,});
+</script>
+</body>
+</html>

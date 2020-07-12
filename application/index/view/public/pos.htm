@@ -1,0 +1,5 @@
+<div class="path"><a href='#'>主页</a> >
+  {volist name="posArr" id="posCate"}
+  <a href='{:url('artlist/artlist',array('cateid'=>$posCate['id']))}'>{$posCate.catename}</a> >
+  {/volist}
+</div>
